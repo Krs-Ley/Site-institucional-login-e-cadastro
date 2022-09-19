@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+main{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 1px 5px 15px rgb(202, 202, 188);
+}
+
+p{
+    text-align: justify;
+}
+
+a{  
+    color: #003395;
+    text-decoration: none;
+}
+
+.cabecalho_ufrrj{
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #394674;
+    padding: 0;
+}
+
+.microespacocabecalho{
+    padding: 2px;
+    background-color: #D99C44;
+}
+
+.cabecalho{
+    justify-content: center;
+    color: #003395;
+    background-color: #CFDCEF;
+    text-indent: 20px;
+    display: flex;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+input{
+    outline: none;
+}
+
+.textoAviso{
+    font-size: 10px;
+    white-space: nowrap;
+}
+.conteudo{
+    padding: 15px;
+    font-size: 15px;
+    background-color: #EFF3FA;
+    text-align: justify;
+}
+
+.conteudo> h1{
+    padding: 20px;
+    background-color: #FFFFE4;
+    color:#003395;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.conteudo > p{
+    text-indent: 40px;
+}
+
+.normal{
+    color:#333333;
+    font-size: 0.8em;
+}
+
+.login{
+    padding: 30px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EFF3FA;
+    
+}
+
+.login > h1{
+    color: #333366;
+    font-size: 1.3em;
+}
+
+.espaco{
+    padding: 15px;
+}
+
+.microespaco{
+    padding: 3px;
+}
+
+.texto{
+    font-size: 12px;
+    align-items: flex-start;
+}
+
+.textolarge{
+    font-size: 14px;
+    align-items: flex-start;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textobig{
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.destaque{
+    font-size: 14px;
+    color: #374370;
+    font-weight: bold;
+}
+
+.cadastro{
+    background-color: #EFF3FA;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.cadastro > table{
+    text-align: center;
+    width: 100%; 
+    border: "0";
+    -ms-scroll-chaining: "0" ;
+    scroll-padding: "0";
+
+}
+
+.cadastro > td{
+    column-span:"5";
+    text-align:"center" ;
+    width:"33%";
+}
+
+.cadastro > img{
+    height: "16";
+    width: "16";
+    border: "0";
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+a:hover{
+    color: #333333;
+}
+
+.inputbox{
+    color:black;
+    text-indent: 20px;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.normal{
+    color: black;
+    text-indent: 20px;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.normal > input{
+    width: 30%
+}
+
+.centralizar{
+    text-align: center;
+    background-color: #C8D5EC;
+}
+
+.centralizar-sem-cor{
+    text-align: center;
+}
+
+
+body{
+    width: 100%;
+    background-image: url('imagens/background.png'); 
+}
+
+.cadastro_projeto > table{
+    text-align: center;
+    width: 100%; 
+    border: "0";
+    -ms-scroll-chaining: "0" ;
+    scroll-padding: "0";
+
+}
+
+.cadastro_projeto > td{
+    column-span:"5";
+    text-align:"center" ;
+    width:"33%";
+}
+
+.cadastro_projeto > img{
+    height: "25";
+    width: "16";
+    border: "0";
+}
+
+.large{
+    text-indent: 20px;
+}
+
+.large > input{
+    width: 50%;
+}
+
+#caixagrande{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    height: 60%;
+    resize: none;
+}
+
+#caixagrande > textarea{
+    text-indent: 20px;
+}
+
+strong{
+    color:#394674;
+}
+
+.texto-formatado{
+    font-size: 14px;
+}
+
+.destaque-aprovacao{
+    font-weight: bold;
+    color:rgb(185, 183, 14)
+}
+
+.destaque-ativo{
+    font-weight: bold;
+    color: rgb(43, 185, 14)
+}
+
+.destaque-finalizado{
+    font-weight: bold;
+    color:rgb(185, 14, 142)
+}
+
+.destaque-encerrado{
+    font-weight: bold;
+    color: rgb(236, 19, 19);
+}
+
+.destaque-inativo{
+    font-weight: bold;
+    color: rgb(236, 99, 19);
+}
+
